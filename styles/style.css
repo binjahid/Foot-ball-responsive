@@ -110,3 +110,22 @@ Highlight section
   width: 700px;
   height: 550px;
 }
+
+/*-----------------
+Fotter section
+-------------------*/
+.fotter {
+  margin-top: 150px;
+}
+.footer-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-info-container .fotter-logo img {
+  width: 500px;
+  height: 150px;
+}
+.fotter-copywrite {
+  margin-bottom: 50px;
+}

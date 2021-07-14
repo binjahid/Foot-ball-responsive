@@ -12,9 +12,6 @@ Header Section
 -------------------*/
 
 .header-container {
-  /* width: 100%; */
-  /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
   display: flex;
   background-color: #2d25a0;
   height: 677px;
@@ -45,6 +42,9 @@ Header Section
   border: 1px solid red;
   padding: 10px 24px;
   background-color: #e02c6d;
+}
+.header-btn .btn a:hover {
+  transform: translateX(20px);
 }
 
 /*-----------------
@@ -190,4 +190,62 @@ Fotter section
 }
 .fotter-copywrite {
   margin-bottom: 50px;
+}
+
+/* Meadi Quarry for mobile */
+@media only screen and (max-width: 688px) {
+  /* header section */
+  .header-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .header-content {
+    width: 100%;
+    margin-right: 0;
+  }
+  .header-title {
+    font-size: 20px;
+  }
+  .header-image img {
+    width: 100%;
+    height: 450px;
+    margin-top: 42px;
+  }
+  .match-highlight {
+    display: none;
+  }
+
+  /* player section */
+  .player-article-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player {
+    width: 90%;
+  }
+
+  /* ratting section */
+  .rating-info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player-list .player-image img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .player-information {
+    margin-bottom: 20px;
+  }
+
+  /* vote-section */
+  .vote-title {
+    font-size: 20px;
+  }
+  input {
+    width: 100%;
+  }
+
+  /* fotter-section */
+  .footer-info-container .fotter-logo img {
+    width: 100%;
+  }
 }

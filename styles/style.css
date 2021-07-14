@@ -38,7 +38,8 @@ Header Section
   margin-top: 36px;
 }
 .header-btn .btn a,
-.highlight-btn {
+.highlight-btn,
+.vote-submit {
   text-decoration: none;
   color: #ffffff;
   border: 1px solid red;
@@ -146,6 +147,32 @@ Ratting section
   background-color: #ffe4e8;
 }
 
+/*-----------------
+Vote section
+-------------------*/
+.vote-section {
+  margin-top: 50px;
+}
+.vote-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.vote-form {
+  text-align: center;
+}
+input {
+  width: 400px;
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px 0;
+  border: 1px solid #ff4a60;
+  border-radius: 15px;
+}
 /*-----------------
 Fotter section
 -------------------*/

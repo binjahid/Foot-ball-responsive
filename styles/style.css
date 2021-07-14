@@ -37,7 +37,8 @@ Header Section
 .header-btn .btn {
   margin-top: 36px;
 }
-.header-btn .btn a {
+.header-btn .btn a,
+.highlight-btn {
   text-decoration: none;
   color: #ffffff;
   border: 1px solid red;
@@ -79,4 +80,33 @@ Player Section
   color: #6c6c6c;
   font-size: 16px;
   margin-top: 14px;
+}
+
+/*-----------------
+Highlight section
+-------------------*/
+
+.match-highlight {
+  display: flex;
+  margin-top: 165px;
+  justify-content: center;
+  align-items: center;
+}
+.highlight-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.highligh-detail-container {
+  width: 466px;
+}
+.match-highlight-image {
+  margin-left: 100px;
+}
+.highlight-des {
+  margin-bottom: 36px;
+  color: #6c6c6c;
+}
+.match-highlight .match-highlight-image img {
+  width: 700px;
+  height: 550px;
 }

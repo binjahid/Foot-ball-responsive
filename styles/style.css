@@ -92,7 +92,8 @@ Highlight section
   justify-content: center;
   align-items: center;
 }
-.highlight-title {
+.highlight-title,
+.rating-title {
   font-size: 48px;
   font-weight: 700;
 }
@@ -109,6 +110,40 @@ Highlight section
 .match-highlight .match-highlight-image img {
   width: 700px;
   height: 550px;
+}
+
+/*-----------------
+Ratting section
+-------------------*/
+.most-beloved-player {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding: 30px 0;
+  margin-top: 50px;
+}
+.rating-title {
+  margin: 50px 0;
+  text-align: center;
+}
+.player-container {
+  display: flex;
+  justify-content: center;
+}
+.rating-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 810px;
+}
+.player-list .player-image img {
+  width: 220px;
+  height: 150px;
+}
+.player-rating {
+  display: inline-block;
+  color: #ff4a60;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #ffe4e8;
 }
 
 /*-----------------
